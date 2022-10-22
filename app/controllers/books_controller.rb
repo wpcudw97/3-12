@@ -3,6 +3,9 @@ class BooksController < ApplicationController
     @book = Book.new
   end
 
+  def top
+  end
+
   def create
     book = Book.new(book_params)
     book.save
@@ -10,6 +13,7 @@ class BooksController < ApplicationController
   end
 
   def index
+    @books = Book.all
   end
 
   def show
