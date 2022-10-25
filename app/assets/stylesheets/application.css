@@ -27,14 +27,17 @@
   color: #000;
 }
 
+p,td {
+   margin: 33px;
+}
+
 
 .font-bold {
   font-weight: bold;
 }
 
-/*top.html.erb*/
-.top-p{
-  margin: 33px;
+.notice {
+  color: green;
 }
 
 /*index.html.erb*/
@@ -54,10 +57,7 @@ td {
 }
 
 /*show.html.erb*/
-.show-p {
-  margin: 33px;
-}
-
 a:visited {
   color: #666;
 }
+
